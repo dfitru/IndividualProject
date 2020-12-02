@@ -1,4 +1,5 @@
 ﻿using DeveloperProject;
+using DevTeamProjects;
 using System;
 using System.Collections.Generic;
 
@@ -7,11 +8,13 @@ namespace Devloper_Console
     class ProgrmaUI
 
     {
+        private DevTeamRepo _devTeamRepo = new DevTeamRepo();
         private DeveloperRepo _devRepo = new DeveloperRepo();
         //public object Daveloper { get; private set; }
 
         public void Run()
         {
+            SeedDevelpers();
             Members();
         }
         private void Members()
@@ -80,9 +83,16 @@ namespace Devloper_Console
             Console.WriteLine("Enter Developer ID:");
             string idNumber = Console.ReadLine();
             newMenber.EmplayeeID = int.Parse(idNumber);
+            //wrap in while loop
+            //foreach through Developer List
+            //create an if statement to check if any of those develoeprs has the ID
+            //if so, have them type a new one with a while loop until the Id is new and unqiue
+
             //Description
             Console.WriteLine("Enter Employee name:");
             newMenber.EmployeeName = Console.ReadLine();
+
+
             //Maturity Rating
             Console.WriteLine("Does the Employee have access?(y/n)");
             string respons = Console.ReadLine().ToLower();
@@ -94,15 +104,6 @@ namespace Devloper_Console
             {
                 newMenber.HaveAccessForOnlineLearning =false;
             }
-            // Developer Type
-            /*
-             * Language=1,
-        SofwareDevlopment,
-        DatabseDeveleopment,
-        DataAnalytics,
-        Metwprking,
-        ServerAdmin
-             */
             Console.WriteLine("Enter Plural sight Course Number:\n" +
                 "1.Language\n" +
                 "2. Soft Ware Developmnet\n" +
@@ -113,7 +114,7 @@ namespace Devloper_Console
             string course = Console.ReadLine();
             int courseNumber = int.Parse(course);
             newMenber.TypeOfCourse = (CourseType)courseNumber;
-
+            
             _devRepo.AddDeveloperToDirectory(newMenber);
         }
         //View All Sved  Developers
@@ -151,6 +152,18 @@ namespace Devloper_Console
             }
             else Console.WriteLine("Employee Id Can  not be found.");
         }
+        //Adding Developer object to the List of Developers in a specific team
+        private void AddDeveloperToTeam()
+        {
+            //prompt user to select a Team by Id
+
+            //create user input for team Id
+            // Create DevTeam object and use that to call GetTeamBy Id Helper Method pass team id as parameter
+            //prompt user to select a Developer by Id
+            //Create user input for Developer Id
+            //create Developer object and use that to call GetDeveloperById Helper method pass devId as paramater
+            //use DevTeam Object to call _Developers **this is your list** and call the .Add method and add the Developer object to the list
+        }
         //Update Existing Contetn
         private void UpdateExistingDevelopers()
         {
@@ -159,7 +172,7 @@ namespace Devloper_Console
             Console.WriteLine("Which Emplayee data do wnat to update? Eneter Employee ID:");
             //Get the ID
             string oldID = Console.ReadLine();
-            int number = Int32.Parse(oldID);
+            int number = int.Parse(oldID);
             //Build new Data
             Console.Clear();
             Developer newMenber = new Developer();
@@ -182,15 +195,6 @@ namespace Devloper_Console
             {
                 newMenber.HaveAccessForOnlineLearning = false;
             }
-            // Developer Type
-            /*
-             * Language=1,
-        SofwareDevlopment,
-        DatabseDeveleopment,
-        DataAnalytics,
-        Metwprking,
-        ServerAdmin
-             */
             Console.WriteLine("Enter Plural sight Course Number:\n" +
                 "1.Language\n" +
                 "2. Soft Ware Developmnet\n" +
@@ -201,6 +205,7 @@ namespace Devloper_Console
             string course = Console.ReadLine();
             int courseNumber = int.Parse(course);
             newMenber.TypeOfCourse = (CourseType)courseNumber;
+            _devRepo.UpdateExistingDeveleoper(number, newMenber);
 
                      
 
@@ -228,7 +233,7 @@ namespace Devloper_Console
             }
             
         }
-        private void SeedDeveleoperes()
+        private void SeedDevelpers()
         {
             Developer FirstDeveloper = new Developer(1, "David Savary",true,CourseType.DatabseDeveleopment);
             Developer SecondDeveloper = new Developer(2, "Jeff Stone", false, CourseType.DatabseDeveleopment);

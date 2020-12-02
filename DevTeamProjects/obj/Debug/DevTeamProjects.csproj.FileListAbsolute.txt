@@ -1,0 +1,9 @@
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\bin\Debug\DevTeamProjects.dll
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\bin\Debug\DevTeamProjects.pdb
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\bin\Debug\02DevTemsProject.dll
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\bin\Debug\02DevTemsProject.pdb
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\obj\Debug\DevTeamProjects.csprojAssemblyReference.cache
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\obj\Debug\DevTeamProjects.csproj.CoreCompileInputs.cache
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\obj\Debug\DevTeamProjects.csproj.CopyComplete
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\obj\Debug\DevTeamProjects.dll
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\DevTeamProjects\obj\Debug\DevTeamProjects.pdb

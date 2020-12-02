@@ -50,10 +50,6 @@
       <Project>{924f8cd4-f3f3-44f8-9e15-3a31d492d45d}</Project>
       <Name>02DevTemsProject</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Devloper_Console\Devloper_Console.csproj">
-      <Project>{c91b4f49-e1ee-4dd7-add1-c3aa11c48a8a}</Project>
-      <Name>Devloper_Console</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

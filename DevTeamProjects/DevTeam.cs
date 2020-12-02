@@ -10,11 +10,13 @@ namespace DevTeamProjects
     public class DevTeam
     {
         public string TeamName { get; set; }
+        //remove or comment out bool
         public bool IsTeamLeader { get; set; }
         public int MembersNumber { get; set; }
+        //remove or comment out DevName and DevID
         public string DevName { get; set; }
         public int DevID { get; set; }
-
+        public List<Developer> _Developers { get; set; }
         public DevTeam() { }
         public DevTeam(string teamName,bool teamLeader,int numberofMembers,string devName,int id)
         {

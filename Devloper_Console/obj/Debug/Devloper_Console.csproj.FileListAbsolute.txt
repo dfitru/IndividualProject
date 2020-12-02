@@ -8,3 +8,5 @@ C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Co
 C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\02DevTemsProject.dll
 C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\02DevTemsProject.pdb
 C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.csproj.CopyComplete
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\DevTeamProjects.dll
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\DevTeamProjects.pdb
