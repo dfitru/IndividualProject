@@ -1,0 +1,10 @@
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\Devloper_Console.exe.config
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\Devloper_Console.exe
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\Devloper_Console.pdb
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.csprojAssemblyReference.cache
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.csproj.CoreCompileInputs.cache
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.exe
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.pdb
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\02DevTemsProject.dll
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\bin\Debug\02DevTemsProject.pdb
+C:\ElevenfiftyProjects\DevTeamsProject-master\DevTeamsProject-master\Devloper_Console\obj\Debug\Devloper_Console.csproj.CopyComplete
